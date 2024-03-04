@@ -1,0 +1,45 @@
+html{
+    font-family: "Montserrat", sans-serif;
+}
+
+.content{
+    width: 1100px;
+    margin: 0px auto;
+    padding: 20px 0px;
+    
+}
+.content > nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title{
+    font-size: 25px;
+    font-weight: 500;
+    flex-grow: 2;
+    flex-basis: 140px;
+}
+.menu{
+    flex-grow: 1;
+    flex-basis: 350px;
+}
+.menu ul{
+    display: flex;
+    gap: 20px;
+}
+.menu a, .account a{
+    font-size: 13px;
+    font-weight: 400;
+}
+.account {
+    flex-grow: 0;
+    flex-basis: 218px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.account a:last-child{
+    background-color: #FFCC01;
+    padding: 12px 25px;
+}
